@@ -1,7 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning CSS</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<header>
+  <h1 style="text-decoration: underline">I like Coding!
+  </h1>
+</header>
+
+<nav>
+  <a href="home.html"target="_home"></a>HOME</a>
+  <a href="about.html"target="_about>"></a>ABOUT
+  <a href="about.html"target="_about>"></a>HOME 
+</nav>
+
+<body>
+  
+</body>
+</html><html>
   <head>
     <title>Learning CSS</title>
     <style>
+       
+      nav a{
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+      }
       h1 {
         color: red;
       }
@@ -13,6 +45,10 @@
       button {
       }
 
+      nav{
+        background-color: #95b8d1;
+        padding: 10px;
+     
       /* TODO: add styles for header  */
       
       /* TODO: add styles for footer  */
@@ -20,21 +56,31 @@
       .paragraph-1 {
         background-color: pink;
       }
+
+      <nav>
+        <a href="indexhtml target="_home>Home</a>
+        </nav>
+
+     
     </style>
-    <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
-    <header>
-      <h1 style="text-decoration: underline">I like cats!
-      </h1>
-    </header>
+   
     <main>
-      <p class="paragraph-1" style="red;">
-        <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam.    
+      <p class="paragraph-1" style="color: dark gray;">
+        <em>CSS Selector:</em>The preferred method for styling <storng>HTML</storng> elements is using CSS classes.
+        A CSS class Selector, such as <strong>.paragraph-1 </strong>indentifies <strong>HTML</strong>
+        Element that have been assigned the class "paragraph-1." The dot (.) signifies that it's a class 
+        selector. Within the CSS rul, properties like <em>color</em> are used to difine the element's appearance.
+        In this example, <em>color</em>is the property, and <em>blue</em> is the value assigned to it, determining 
+        the text color. Separating <strong>CSS</strong> form<strong>HTML</strong>, ideally into its own file, offers
+        several key advantages. It greatly improves maintainability, as changes to the style of all elements with a 
+        specific class can be made in a single location the <strong>CSS</strong>file. This approach also promotes 
+        reuability, allowing the same <strong>CSS</strong>class to be applied to muyltiple<strong>HTML</strong>elements.
+        Finally, organizing <strong>CSS</strong>separately form<strong>HTML</strong>makes the code cleaner, easier to read,
+        and simpler to understand, contributing to a more efficient development workflow.
+            
       </p>
     
       <p style="yellow">
