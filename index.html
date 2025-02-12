@@ -6,136 +6,109 @@
   <title>Learning CSS</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-
+  
   <link rel="stylesheet" href="style.css">
 
+  <style>
+    body {
+      background-image: url('https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=600');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    nav {
+      background-color: #95b8d1;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    header h1 {
+      text-decoration: underline;
+      color: purple;
+    }
+
+    main p {
+      margin: 32px;
+      padding: 10px;
+    }
+
+    .paragraph-1 {
+      background-color: pink;
+      color: red; 
+      margin: 32px;
+      padding: 10px
+
+    }
+
+    .paragraph-2 {
+      background-color: white;
+      color: blue;
+      margin: 32px;
+      padding: 10px;
+    }
+
+    .paragraph-3 {
+      background-color: yellow
+      color: blue;
+      margin: 32px;
+      padding: 10px;
+    }
+
+    .paragraph-4 {
+      color: orangered;
+      margin: 32px;
+      padding: 10px;
+    }
+  </style>
 </head>
-<header>
-  <h1 style="text-decoration: underline">I like Coding!
-  </h1>
-</header>
-
-<nav>
-  <a href="home.html"target="_home"></a>HOME</a>
-  <a href="about.html"target="_about>"></a>ABOUT
-  <a href="about.html"target="_about>"></a>HOME 
-</nav>
-
 <body>
   
-</body>
-</html><html>
-  <head>
-    <title>Learning CSS</title>
-    <style>
-       
-      nav a{
-        color: white;
-        margin: 0 15px;
-        text-decoration: none;
-      }
-      h1 {
-        color: red;
-      }
+  <nav>
+    <a href="home.html" target="_self">HOME</a> |
+    <a href="about.html" target="_self">ABOUT</a> |
+    <a href="gallery.html" target="_self">GALLERY</a>
+  </nav>
 
-      p {
-        margin: 32px;
-      }
+  <header>
+    <h1>I like Coding!</h1>
+  </header>
 
-      button {
-      }
+  <main>
+    <p class="paragraph-1"><em>CSS Selector:</em> The preferred method for styling <strong>HTML</strong> elements is using CSS classes. A CSS class Selector, such as <strong>.paragraph-1</strong>, identifies <strong>HTML</strong> elements that have been assigned the class paragraph-1.</p>
 
-      nav{
-        background-color: #95b8d1;
-        padding: 10px;
-     
-      /* TODO: add styles for header  */
-      
-      /* TODO: add styles for footer  */
+    <p class="paragraph-2">The dot (.) signifies that it's a class selector. Within the CSS rule, properties like <em>color</em> are used to define the element's appearance. In this example, <em>color</em> is the property, and <em>blue</em> is the value assigned to it, determining the text color.</p>
 
-      .paragraph-1 {
-        background-color: pink;
-      }
+    <p class="paragraph-3">Separating <strong>CSS</strong> from <strong>HTML</strong>, ideally into its own file, offers several key advantages. It greatly improves maintainability, as changes to the style of all elements with a specific class can be made in a single location—the <strong>CSS</strong> file.</p>
 
-      <nav>
-        <a href="indexhtml target="_home>Home</a>
-        </nav>
+    <p class="paragraph-4">This approach also promotes reusability, allowing the same <strong>CSS</strong> class to be applied to multiple <strong>HTML</strong> elements. Finally, organizing <strong>CSS</strong> separately from <strong>HTML</strong> makes the code cleaner, easier to read, and simpler to understand, contributing to a more efficient development workflow.</p>
 
-     
-    </style>
-    
-  </head>
-  <body>
-   
-    <main>
-      <p class="paragraph-1" style="color: dark gray;">
-        <em>CSS Selector:</em>The preferred method for styling <storng>HTML</storng> elements is using CSS classes.
-        A CSS class Selector, such as <strong>.paragraph-1 </strong>indentifies <strong>HTML</strong>
-        Element that have been assigned the class "paragraph-1." The dot (.) signifies that it's a class 
-        selector. Within the CSS rul, properties like <em>color</em> are used to difine the element's appearance.
-        In this example, <em>color</em>is the property, and <em>blue</em> is the value assigned to it, determining 
-        the text color. Separating <strong>CSS</strong> form<strong>HTML</strong>, ideally into its own file, offers
-        several key advantages. It greatly improves maintainability, as changes to the style of all elements with a 
-        specific class can be made in a single location the <strong>CSS</strong>file. This approach also promotes 
-        reuability, allowing the same <strong>CSS</strong>class to be applied to muyltiple<strong>HTML</strong>elements.
-        Finally, organizing <strong>CSS</strong>separately form<strong>HTML</strong>makes the code cleaner, easier to read,
-        and simpler to understand, contributing to a more efficient development workflow.
-            
-      </p>
-    
-      <p style="yellow">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
-      </p>
-    
-      <p style="green">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
-      </p>
-    
-      <table>
-        <tr>
-          <th style="">item</th>
-          <th style="">price</th>
-        </tr>
-        <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
-        </tr>
-        <tr>
-          <td style="">
-            Cabbage patch doll
-          </td>
-          <td style="">$1.99</td>
-        </tr>
-      </table>
-    
-      <button style="">Buy Now!</button>
-    </main>
+    <table>
+      <tr>
+        <th>Item</th>     
+        <th>Price</th>      
+      </tr>
+      <tr>
+        <td>Hotwheels car</td>
+        <td>$4.99</td>
+      </tr>
+      <tr>
+        <td>Cabbage Patch Doll</td>
+        <td>$1.99</td>
+      </tr>
+    </table>
+    <button>Buy Now!</button>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
   
-    <nav>
-      <a> HOME </a> |
-      <a> ABOUT </a> |
-      <a> GALLERY </a>
-    </nav>
-    
-    <footer>
-    </footer>
-
-    <script src="./script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
 </html>
