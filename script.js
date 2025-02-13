@@ -20,4 +20,3 @@ function prevSlide() {
 // setInterval(nextSlide, 3000); // Change image every 3 seconds
 showSlides();
 
-<script src="script.js"></script>
