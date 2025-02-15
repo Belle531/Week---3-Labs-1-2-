@@ -51,8 +51,8 @@ nav a:hover {
 .sidebar {
 flex: 3;
 margin-left: 20px; ;
-background-color: #f4f4f4
-box-shadow: 0 0 5px rgba(0,0,0,0.1;)
+background-color: #f4f4f4;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 .sidebar {
@@ -63,7 +63,7 @@ box-shadow: 0 0 5px rgba(0,0,0,0.1;)
 }
 
 .paragraph-1 {
-  font-family: 'Pppins', sans-serif
+  font-family: 'Poppins', sans-serif;
   color: #333333;
   background-color: #d6eadf;
   padding: 10px
