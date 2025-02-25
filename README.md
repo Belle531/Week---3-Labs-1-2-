@@ -43,14 +43,14 @@ You will start with an HTML document that needs style. There are several ways to
 ## Roadmap
 
 - [x] Create index.html with paragraphs and other tags
-- [ ] Update the author in this README
-- [ ] Add CSS rules to each of the style attributes on the page
-- [ ] Create an HTML list and add style rules for it
-- [ ] Style h1, h2, p, em and others with interal CSS
-- [ ] Style header, main and footer
-- [ ] Style a table with borders
-- [ ] Style an element with a class
-- [ ] Create your own class and apply it to an element
+- [X] Update the author in this README
+- [X] Add CSS rules to each of the style attributes on the page
+- [X] Create an HTML list and add style rules for it
+- [X] Style h1, h2, p, em and others with interal CSS
+- [X] Style header, main and footer
+- [X] Style a table with borders
+- [X] Style an element with a class
+- [X] Create your own class and apply it to an element
 
 
 ## Contact
